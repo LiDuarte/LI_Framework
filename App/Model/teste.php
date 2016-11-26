@@ -8,8 +8,7 @@
 		
 			$query = $this->funBy("pessoas",'id','4');
 			
-
-			return $query->nome;
+			var_dump($query);
 					
 
 		}
