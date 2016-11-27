@@ -5,9 +5,7 @@
 	class Teste extends App\core\LI_Model{
 
 		public function con(){
-		
-			$query = $this->funBy("pessoas",'id','4');
-			
+			$query =  $this->read("pessoas");
 			var_dump($query);
 					
 
